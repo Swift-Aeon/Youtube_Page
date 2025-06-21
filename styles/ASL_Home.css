@@ -1,0 +1,92 @@
+body {
+  background-image: url(licensed-image.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+
+.logo {
+  height: 150px;
+  margin-top: -20px;
+  text-align: center;
+}
+
+.holder {
+  height: 20px;
+  font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0.338);
+  width: 80%;
+  padding: 20px;
+  color: antiquewhite;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 13px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: whitesmoke;
+}
+
+div a:hover{
+  opacity: 0.7;
+  box-shadow: 5px 5px 10px burlywood;
+  transition: 0.5s;
+}
+
+.Tasty{
+  color: burlywood;
+  font-family: sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 260px;
+  margin-top: 50px;
+}
+
+.summary{
+  color: rgb(36, 33, 33);
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 70px;
+  margin-top:30px ;
+  font-weight: bold;
+  align-items: center;
+}
+
+.reserve{
+  color: #635900;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 400px;
+  margin-top: 15px;
+}
+
+.location{
+  background-color: rgba(0, 0, 0, 0.338);
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.map{
+  padding-left: 370px;
+  color: greenyellow;
+  padding-top: 10px;
+}
